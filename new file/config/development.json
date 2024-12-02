@@ -1,0 +1,27 @@
+{
+  "port":5009,   
+ "hostAddress":"172.16.6.52:5036/",
+ "databaseHost":"localhost",
+ "databasePort":"27017",
+ "databaseName" : "test3",
+ "nodemailer": {
+  "service": "gmail",
+  "email": "satyam.rai@indicchain.com",
+  "password": "fyfcaqlcwinpiljl"
+},
+"jwtOptions": {
+  "expiresIn": "24h"
+},
+
+  "secretKey": "G1cjS3jtUXwkh1R1CeCk3Pf1CU30vakNmLRHwaCQokOULaLUHse4TZ7cCeKzLBbaA",
+  "swaggerDefinition": {
+    "info": {
+      "title": "test3",
+      "version": "2.0",
+      "description": "all new api"
+    }
+    
+  }
+
+    
+}
